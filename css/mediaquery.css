@@ -1,0 +1,208 @@
+
+/* HOME PAGE  */
+@media(max-width: 780px) {
+	.about {
+		flex-direction: column;
+		gap: 5rem;
+		padding: 5rem 2rem;
+	}
+	.sectionImage {
+		width: 450px;
+		height: 420px;
+		margin: 0 auto;
+	}
+	.sectionImage img {
+		height: 100%;
+		width: 100%;
+	}
+	.hero h1 {
+		font-size: 4rem;
+		font-weight: 600;
+	}
+	.hero h3 {
+		font-size: 2rem;
+		font-weight: 100;
+	}
+	.sectionText h2 {
+		font-size: 3rem;
+	}
+}
+
+@media(max-width: 540px){
+	.sectionImage {
+		width: 250px;
+		height: 250px;
+	}
+	.sectionImage img {
+		height: 100%;
+		width: 100%;
+	}
+	.button{
+		margin-top: 3.5rem;
+		padding: 1.5rem 3rem;
+		font-size: 1.8rem;
+	}
+	.hero{
+		height: 100vh;
+	}
+	.hero h1 {
+		font-size: 2.5rem;
+		font-weight: 600;
+	}
+	.hero h3 {
+		margin-top: 1rem;
+		font-size: 1.8rem;
+		font-weight: 100;
+	}
+	.hero p{
+		font-size: 1.4rem;
+		font-weight: 500;
+	}
+	.sectionText h2 {
+		font-size: 3.5rem;
+	}
+	.sectionText p{
+		font-size: 1.8rem;
+	}
+}
+
+/* CONTACT DETAILS PAGE  */
+@media(max-width: 780px) {
+  .customers {
+    flex-direction: column;
+	  gap: 5rem;
+  }
+  .testimony{
+	  width: 90%;
+  }
+  .contactSection{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contactForm {
+  flex: 1;
+  border-left: none;
+  padding: 5rem 0;
+}
+  .contactDetails{
+    width: 100%;
+    padding: 5rem 0;
+    border-radius: 0px;
+  }
+  .contactDetails h2 {
+    font-size: 3rem;
+  }
+  .testimonials h2 {
+	  font-size: 3rem;
+  }
+  .contactDetailsText p{
+    font-size: 2rem;
+  }
+  .testimony p{
+    font-size: 1.8rem;
+  }
+  .testimony h3{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 540px){
+  .testimony{
+	  width: 99%;
+  }
+  .testimony p{
+    font-size: 1.6rem;
+  }
+  .testimony h3{
+    font-size: 1.8rem;
+  }
+  .contactDetails{
+    width: 100%;
+  }
+  .contactDetailsText p{
+    font-size: 1.7rem;
+  }
+  .contactDetails h2 {
+    font-size: 2.5rem;
+  }
+  .testimonials h2 {
+	  font-size: 2.5rem;
+  }
+  .contactDetailsText p a{
+    margin-top: 50px;
+    padding: .2rem;
+
+  }
+  form{
+    width: 100%;
+    padding: 0rem 2rem;
+  }
+  form .button{
+    width: 45%;
+    font-size: 1.6rem;
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* GARDEN PAGE */
+@media(max-width: 780px) {
+	.catalogue {
+  	margin: 5rem 0;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 3rem;
+  	row-gap: 3rem;
+	}
+	.infoSection {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		gap: 5rem;
+		padding: 2rem 2rem;
+	}
+	.infoImage {
+		width: 450px;
+		height: 450px;
+		margin: 0 auto;
+	}
+	.infoImage img {
+		height: 100%;
+		width: 100%;
+	}
+	.infoText h2 {
+		font-size: 3rem;
+	}
+	.products h2 {
+		font-size: 3rem;
+	}
+}
+
+@media(max-width: 540px){
+	.infoImage {
+		width: 250px;
+		height: 250px;
+		margin: 0 auto;
+	}
+	.infoImage img {
+		height: 100%;
+		width: 100%;
+	}
+	.infoText p {
+		font-size: 1.8rem;
+	}
+	button.button {
+		background: #004225;
+		padding: 1.5rem 3rem;
+		font-weight: 600;
+		color: #F5F5DC;
+	}
+	.infoText h2 {
+		font-size: 2.5rem;
+	}
+	.products h2 {
+		font-size: 2.5rem;
+	}
+	.links a{
+		font-size: 1.6rem;
+	}
+}

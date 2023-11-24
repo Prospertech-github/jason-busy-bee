@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mediaquery.css">
+  <title>Busy Bee Florist </title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="images/AdobeStock_199288513-min.jpeg" alt="Busy Bee Florist Logo">
+    </div>
+    <div class="openMenu"> <i class="fa fa-bars"> </i> </div>
+
+    <ul class="mainMenu">
+      <li> <a href="index.html"> Home </a> </li>
+      <li> <a href="garden.html"> Garden </a> </li>
+      <li> <a href="contacts.html"> Contacts </a> </li>
+      <div class="closeMenu"> <i class="fa fa-times"></i> </div>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="testimonials">
+      <h2> Testimonials </h2>
+      <p> Hear what our customers are saying </p>
+
+      <div class="customers">
+        <div class="testimony">
+          <h3> “ The best florist in town, so many beautiful flowers to choose from ”</h3>
+          <p> Kratos Oslo </p>
+        </div>
+
+        <div class="testimony">
+          <h3> “ Excellent service, will be back again ”</h3>
+          <p> Samuel Mormon </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactSection">
+      <div class="contactForm">
+        <form action="POST">
+          <div class="formControl">
+            <label for="name"> Name: </label>
+            <input type="text" name="name" id="name" autocomplete="off">
+          </div>
+
+          <div class="formControl">
+            <label for="email"> Email: </label>
+            <input type="email" name="email" id="email" autocomplete="off">
+          </div>
+
+          <div class="formControl">
+            <label for="flowerName"> Name of flower: </label>
+            <input type="text" name="flowerName" id="flowerName" autocomplete="off">
+          </div>
+
+          <div class="formControl">
+            <label for="specialFeatures"> Any Special Features? </label>
+            <textarea name="specialFeatures" id="specialFeatures" cols="30" rows="10" autocomplete="off"></textarea>
+          </div>
+
+          <button class="button"> ORDER NOW</button>
+        </form>
+      </div>
+
+      <div class="contactDetails">
+        <h2> Contact Details </h2>
+        <div class="contactDetailsText">
+          <p> Phone: <a href="tel:+0747791243" class="tel-link"> 07 4779 1243</a> </p>
+          <p> Fax: 07 4779 1244 </p>
+          <p> Address: 223 Bolsover St in Cairville, Queensland </p>
+          <p> Email: <a href="mailto:busybeeflorist@busybeemail.com.au"> busybeeflorist@busybeemail.com.au </a> </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p> &copy; Copyright Busy Bee Florist 2023. All Rights Reserved.</p>
+    <p>
+      <a href="mailto:busybeeflorist@busybeemail.com.au">
+        busybeeflorist@busybeemail.com.au
+      </a>
+    </p>
+  </footer>
+
+  <script src="javascript/script.js"></script>
+</body>
+
+</html>
